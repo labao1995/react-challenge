@@ -1,0 +1,66 @@
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #f0f0f0;
+  .container {
+    max-width: 840px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    .fromDetails {
+      display: block;
+    }
+}
+}
+
+.grid{
+    padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  .grid-block {
+    width: 50%;
+  }
+  .full {
+    width: 100%;
+  }
+  .ta-c {
+    text-align: center;
+  }
+  .button {
+    width: 250px;
+    border-radius: 14px;
+    padding: 15px 20px;
+    display: inline-block;
+    background-color: #546e7a;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .secondary--{
+    background-color: #43a047;
+    border: none;
+  }
+  .button-disable{
+    background-color: grey;
+    border: none;
+  }
+  .field-disable{
+    display: none;
+  }
+  .field {
+    width: 80%;
+    padding: 15px 20px;
+    border: none;
+  }
+  .fieldValue {
+    width: 100%;
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+  #notes {
+    width: 90%;
+  }
+}
